@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado de Detección de Idioma</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultado de Detección de Idioma</h1>
+        <p><strong>Texto ingresado:</strong> {{ text }}</p>
+        <p><strong>Idioma detectado:</strong> {{ language }}</p>
+        <a href="/">Volver</a>
+    </div>
+</body>
+</html>
